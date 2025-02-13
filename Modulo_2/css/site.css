@@ -31,8 +31,8 @@ nav{
 
 .item{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 
 .item a{
@@ -52,13 +52,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background: rgb(13,195,144);
-    background: linear-gradient(90deg, 
+    background: rgb(3, 148, 22);
+    /* background: linear-gradient(90deg, 
     rgba(13, 195, 144, 1) 0%, 
     rgba(21, 124, 15, 1) 25%, 
     rgba(50, 168, 30, 1) 50%, 
     rgba(73, 176, 32, 1) 75%, 
-    rgba(74, 255, 0, 1) 100%);
+    rgba(74, 255, 0, 1) 100%); */
 
 
 }

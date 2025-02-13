@@ -1,0 +1,15 @@
+
+.container{
+
+}
+
+form{
+    display: inline-block;
+    flex-direction: column;
+
+}
+
+.imputs{
+    display: flex;
+    align-items: left;
+}
