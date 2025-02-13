@@ -1,5 +1,7 @@
 /*Geral*/
 
+
+  
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,8 +9,7 @@
 
 /*Barra de navegação*/
 nav{
-    background-color: #3D8D7A;
-    border-bottom: 3px solid #101010;
+    background-color: #000000;
     height: 50px;
 }
 
@@ -42,4 +43,109 @@ nav{
 .item a:hover{
     color: #ccc;
     transition: .5s;
+}
+
+/*Parte do Hero*/
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background: rgb(13,195,144);
+    background: linear-gradient(90deg, 
+    rgba(13, 195, 144, 1) 0%, 
+    rgba(21, 124, 15, 1) 25%, 
+    rgba(50, 168, 30, 1) 50%, 
+    rgba(73, 176, 32, 1) 75%, 
+    rgba(74, 255, 0, 1) 100%);
+
+
+}
+.container img{
+    width: 100%;
+    height: 500px;
+}
+
+.hero-text{
+    width: 80%;
+}
+
+.hero-text h1{
+    font-family: "Lusitana", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.3rem;
+    margin-bottom: 8px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text p{
+    font-family: Roboto, sans-serif;
+    font-size:1.4rem;
+    margin-bottom: 12px;
+    margin-left: 40px;
+}
+button{
+    padding: 1em 2.1em 1.1em ;
+    border-radius: 4px;
+    margin: 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+    
+    transition: color 0.3s ease-in-out;
+    margin-left: 40px;
+}
+
+button:hover{
+    background-color: transparent ;
+    color: rgb(0, 0, 0);
+    border: 3px solid #000000;
+}
+
+/*About Guaraná*/
+
+.about{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about h2{
+    margin-bottom: 15px;
+}
+.about h3{
+    font-family: Roboto, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards-item{
+    display: flex;
+    flex-direction: column; /* Mantém a imagem e o texto organizados verticalmente */
+    align-items: center;
+    width: 450px; /* Define um tamanho fixo para os cards */
+    text-align: center;
+}
+
+.cards-item img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.cards-item p{
+    text-align: justify;
 }
