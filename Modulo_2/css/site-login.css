@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:  url('/Modulo_2/img/bg-login-page.png');
+    background:  url('/Modulo_2/img/bg-login-page-2.jpg');
 }
 .login-box{
     display: flex;
@@ -121,6 +121,6 @@ section a{
     margin-top: 20px;
 }
 .sign-up-link a{
-    color: rgb(0, 0, 0);
+    color: rgb(254, 248, 248);
     font-weight: 600;
 }
