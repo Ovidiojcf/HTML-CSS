@@ -53,6 +53,7 @@ nav{
     align-items: center;
     gap: 40px;
     background: rgb(3, 148, 22);
+    
     /* background: linear-gradient(90deg, 
     rgba(13, 195, 144, 1) 0%, 
     rgba(21, 124, 15, 1) 25%, 
@@ -63,8 +64,9 @@ nav{
 
 }
 .container img{
-    width: 100%;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .hero-text{
@@ -116,6 +118,7 @@ button:hover{
     height: 500px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 70px;
 }
 .about h2{
     margin-bottom: 15px;
@@ -135,7 +138,7 @@ button:hover{
     display: flex;
     flex-direction: column; /* Mantém a imagem e o texto organizados verticalmente */
     align-items: center;
-    width: 450px; /* Define um tamanho fixo para os cards */
+    width: 400px; /* Define um tamanho fixo para os cards */
     text-align: center;
 }
 
@@ -148,4 +151,50 @@ button:hover{
 
 .cards-item p{
     text-align: justify;
+}
+
+.best-sellers{
+    display: flex;
+    color:rgb(255, 255, 255);
+    background: #000000;
+    align-items: center;
+    flex-direction: column;
+}
+.container-best-sellers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.best-sellers h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*meu card principal dos melhores refrigerantes*/
+.best-sellers-item{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Mantém a imagem e o texto organizados verticalmente */
+    align-items: center;
+    width: 200px; /* Define um tamanho fixo para os cards */
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*formatar a imagem da melhor forma dentro do card anterior*/
+.best-sellers-item img{
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+}
+/*formatar a disposição do textos dentro do card anterior*/
+.best-sellers-item h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: bold;
+    /* color: #fee13ae1 ; */
+    background: linear-gradient(45deg, #ff0000, #ffcc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
